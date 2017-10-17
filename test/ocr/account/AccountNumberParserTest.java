@@ -67,6 +67,7 @@ public class AccountNumberParserTest {
         lines.add("  | _| _||_||_ |_   ||_||_|");
         lines.add("  ||_  _|  | _||_|  ||_| _|");
         lines.add("                           ");
+        accountNumbers.add("123456789");
 
         for (int i = 0; i < accountNumbers.size(); i++) {
             // when
