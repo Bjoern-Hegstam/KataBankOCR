@@ -3,9 +3,9 @@ import ocr.digit.DigitParser;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
+import static java.util.Collections.emptyList;
 import static org.junit.Assert.assertEquals;
 
 public class DigitParserTest {
@@ -39,7 +39,7 @@ public class DigitParserTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void parseNoLines() throws Exception {
-        DigitParser.parse(Collections.<String>emptyList());
+        DigitParser.parse(emptyList());
     }
 
     @Test(expected = IllegalArgumentException.class)
