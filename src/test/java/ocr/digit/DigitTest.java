@@ -1,10 +1,11 @@
-import ocr.digit.Digit;
-import ocr.digit.DigitConversionException;
+package ocr.digit;
+
 import org.junit.Test;
 
-import static ocr.digit.DigitPart.*;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
+import static ocr.digit.DigitPart.MIDDLE;
+import static ocr.digit.DigitPart.TOP;
 
 public class DigitTest {
     @Test

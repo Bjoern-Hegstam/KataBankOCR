@@ -1,5 +1,5 @@
-import ocr.digit.Digit;
-import ocr.digit.DigitParser;
+package ocr.digit;
+
 import org.junit.Test;
 
 import java.util.Arrays;
